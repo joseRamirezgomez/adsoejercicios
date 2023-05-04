@@ -1,0 +1,2 @@
+# adsoejercicios
+practicas de adso
