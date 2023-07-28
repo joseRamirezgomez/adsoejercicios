@@ -1,0 +1,60 @@
+.container{
+    background: #252a2ea1;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+  .container ul {
+    display: flex;
+    list-style: none;
+  }
+  .container nav ul li a {
+    text-align: none;
+    color: azure;
+    margin: 0 15px;
+    padding: 3px;
+    transition: 0.5s;
+    text-decoration: none;
+  }
+  
+  .nav-responsive {
+    background-color: #1cb698;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 15px;
+    margin-left: 20px;
+    position: absolute;
+  }
+  .seleccion {
+    width:200px;
+    height: 30px;
+  }
+ 
+    nav {
+      display: none;
+    }
+  
+  
+    nav.responsive{
+      display: block;
+      position: absolute;
+      top:165px;
+      display: flex;
+      align-items: center;
+      background-color: #252a2e56;
+      width: 180px;
+      height: 250px;
+    }
+    nav.responsive ul{
+      display: block !important;
+    }
+    nav.responsive ul li{
+      align-items: center;
+      padding: 10px 0;
+    }
+  

@@ -9,6 +9,7 @@ const container = document.querySelector(".ver");
 registerBtn.addEventListener("click", function() {
   verific();
   container.style.display = "block";
+  vacio();
 });
 
 function verific() {
@@ -19,6 +20,10 @@ function verific() {
     }, 3000);
   }else{
     baseD();
+    nombre.value = "";
+    cedula.value = "";
+    cel.value = "";
+    email.value = "";
   }
 }
 
@@ -38,4 +43,17 @@ function baseD() {
     container.appendChild(nuevoElemento);
   });
 }
-
+function vacio(){
+  if(nombre.value.trim() === ""){
+    nombre.style.borderColor = "red";
+  }
+   if(email.value.trim() === ""){
+    email.style.borderColor = "red";
+  }
+  if(cedula.value.trim() === ""){
+    cedula.style.borderColor = "red";
+  }
+  if(cel.value.trim() === ""){
+    cel.style.borderColor = "red";
+  }
+}

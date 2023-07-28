@@ -3,28 +3,47 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    background: rgb(206, 230, 250);
 }
 .container, .ver{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: rgba(255, 0, 0, 0.582);
+    background: rgb(4, 79, 192);
     max-width: 500px;
     width: 100%;
     margin: 30px;
+    border-radius: 15px;
+    color: white;
+    box-shadow: 0 0 55px rgba(18, 18, 19, 0.87);
 
 }
 .container input{
     margin: 10px;
     width: 70%;
+    height: 25px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    background: rgba(175, 193, 219, 0.74);
+    border-radius: 5px;
+}
+.container input::placeholder{
+    color: white;
+    text-align: center;
+    font-size: 20px;
 }
 .container button {
     margin: 20px;
     height: 40px;
     font-size: 20px;
     cursor: pointer;
+    background: rgba(36, 124, 247, 0.74);
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 0 15px rgb(12, 12, 12);
+    color: white;
 }
 
 .ver{
@@ -32,4 +51,5 @@ body {
 }
 .ver h3{
     margin-left: 3rem;
+    font-size: 28px;
 }
