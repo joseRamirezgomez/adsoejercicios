@@ -1,11 +1,19 @@
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #1cb69786;
+}
 .container{
     background: #252a2ea1;
-    width: 200px;
-    height: 200px;
+    width: 500px;
+    height: 500px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+}
+.seleccion{
+  margin-top: 90px;
 }
   .container ul {
     display: flex;
